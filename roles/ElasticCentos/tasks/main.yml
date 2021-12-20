@@ -15,7 +15,7 @@
 
 - name: Install elastic search (CentOS)
   import_role:
-    name: installcentospkg
+    name: installpkgcentos
   vars:
     package: elasticsearch
 
@@ -37,4 +37,3 @@
     name: elasticsearch
     state: started
     enabled: yes
-

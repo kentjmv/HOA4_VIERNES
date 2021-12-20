@@ -38,7 +38,7 @@
         name: Elastic
       when: ansible_facts['distribution'] == 'Ubuntu'
       
-- name: HOA_4.1
+- name: Hands on activity 4
   hosts: elasticsearch
   tags: elasticsearch,centos
   tasks:

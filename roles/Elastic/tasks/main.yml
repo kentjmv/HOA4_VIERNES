@@ -19,7 +19,7 @@
 
 - name: Installing Elastic Search (Ubuntu)
   import_role:
-    name: installubuntupkg
+    name: installpkgubuntu
   vars:
     package: elasticsearch
 
