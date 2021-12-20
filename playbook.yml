@@ -1,0 +1,14 @@
+---
+- name: Prelim Skills Exam Kent Jan Viernes
+  hosts: ubuntu
+  roles:
+    - Elastic
+    - ElasticCentos
+    - Kibana
+    - KibanaCentos
+    - Logstash
+    - LogstashCentos
+    - installpkgubuntu
+    - installpkgcentos
+    - stopfirewalld
+    - stopufw
